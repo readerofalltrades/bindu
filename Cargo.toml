@@ -1,0 +1,12 @@
+[package]
+name = "bindu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# renders svg files to pixel data
+resvg = "0.44"
+# the pixel canvas that resvg draws on
+tiny-skia = "0.11"
+# lets you create and save the output image
+image = "0.25"
